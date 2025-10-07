@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ /* =========================
+   Global Font Setup
+   ========================= */
+body {
+  font-family: "Rubik", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;           /* ডিফল্ট সাইজ */
+  /* line-height: 1.5;          পড়তে সুবিধা হয় */
+  color: #282828;
+  background-color: #ffff;
+}
+
+
+
+
+select.form-select {
+    width: 25%;
+}
