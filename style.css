@@ -5,8 +5,9 @@
 }
 
  /* =========================
-   Global Font Setup
+   Global Font Setup Start
    ========================= */
+
 body {
   font-family: "Rubik", "Helvetica", "Arial", sans-serif;
   font-size: 14px;           /* ডিফল্ট সাইজ */
@@ -15,9 +16,48 @@ body {
   background-color: #ffff;
 }
 
+ /* =========================
+   Global Font Setup End
+   ========================= */
 
 
+
+  /* =========================
+   Header Search Part Start
+   ========================= */
 
 select.form-select {
-    width: 25%;
+    width: 30%;
+    
 }
+.form-select:focus{
+  box-shadow: none !important;
+}
+
+.form-control:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.border-search-bar{
+    border: 1px solid #0098b8 !important;
+}
+.font-size-cart{
+  font-size: 14px;
+}
+
+/* =========================
+ Header Search Part End
+========================= */
+
+
+/* =========================
+ Navbar Css Start
+========================= */
+
+ul.navbar-nav li a {
+    font-size: 16px;
+}
+
+/* =========================
+ Navbar Css End
+========================= */
