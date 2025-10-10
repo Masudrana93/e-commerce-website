@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
- /* =========================
+/* =========================
    Global Font Setup Start
-   ========================= */
+========================= */
 
 body {
   font-family: "Rubik", "Helvetica", "Arial", sans-serif;
@@ -16,15 +16,15 @@ body {
   background-color: #ffff;
 }
 
- /* =========================
+/* =========================
    Global Font Setup End
-   ========================= */
+========================= */
 
 
 
-  /* =========================
+/* =========================
    Header Search Part Start
-   ========================= */
+ ========================= */
 
 select.form-select {
     width: 30%;
@@ -61,3 +61,173 @@ ul.navbar-nav li a {
 /* =========================
  Navbar Css End
 ========================= */
+
+
+
+/* =========================
+ Footer Css Start
+========================= */
+
+/* Footer Background & Text */
+.footer-bg-color {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+.bottom-menu ul li a {
+  margin-bottom: 8px;
+  transition: color 0.3s;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.bottom-menu ul li a:hover {
+  color: #ff3c3c;
+}
+
+/* Contact Icons */
+.contact-us p i {
+  color: #ff3c3c;
+  margin-right: 8px;
+} 
+
+/* Divider Line */
+.footer-rul hr {
+  border-top: 1px solid #444;
+}
+
+/* Social Icons */
+.social-icon-hover .btn {
+  background-color: #fff;
+  color: #000;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.social-icon-hover .btn:hover {
+  background-color: #ff3c3c;
+  color: #fff;
+}
+
+/* Newsletter Form */
+.newsletter-form input[type="email"] {
+  border-radius: 0;
+  border: none;
+}
+
+.newsletter-form button[type="submit"] {
+  border-radius: 0;
+  background-color: #ff3c3c;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button[type="submit"]:hover {
+  background-color: #cc0000;
+}
+
+/* Payment Icons */
+.payment-icon img {
+  margin: 5px;
+  max-height: 30px;
+}
+
+/* Responsive Fixes */
+/* @media (max-width: 767.98px) {
+  footer .row > div {
+    margin-bottom: 30px;
+  }
+} */
+
+/* =========================
+ Footer Css End
+========================= */
+
+
+
+/*======================================
+  Section-1 == Swiper Slider CSS Start 
+ ========================================*/
+
+.swiper {
+      width: 100%;
+      height: auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #444; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .new-pro-img-height img{
+      height: auto !important;
+    }
+/*======================================
+  Section-1 == Swiper Slider CSS End 
+ ========================================*/
+
+
+ /*================================== 
+  Slider button hover css  Start
+  ===============================*/
+.button-hover-prev:hover{
+ background-color: #ff1e28;
+ color: white !important;
+}
+.button-hover-prev, .button-hover-next{
+  transition: all 0.4s ease;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: white;
+}
+.button-hover-next:hover{
+ background-color: #ff1e28;
+ color: white !important;
+}
+
+.bg-color-slider-none{
+  background: none;
+}
+.cat-name-hover>h6>a:hover{
+  background-color: red;
+  color: white !important;
+} 
+.cat-name-hover>h6>a{
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.bg-color-red{
+  background-color: #ff1e28;
+}
+
+ /*================================== 
+  Slider button hover css  End
+  ===============================*/

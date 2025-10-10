@@ -14,6 +14,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Google Fonts: Rubik -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="style.css">
@@ -65,7 +67,8 @@
 
                 <div class="col-md-7 d-flex align-items-center">
 
-                    <form action="" class="d-flex align-items-center border rounded-pill w-100 p-1 overflow-hidden border-search-bar">
+                    <form action=""
+                        class="d-flex align-items-center border rounded-pill w-100 p-1 overflow-hidden border-search-bar">
 
                         <select class="form-select border-0 border-end rounded-0" aria-label="Default select example">
                             <option selected>All Categories</option>
@@ -87,28 +90,32 @@
                 <!-- Wishlist-cart-account part Start -->
 
                 <div class="col-md-3 d-flex align-items-center justify-content-between">
-                    
-                        <!-- wishlist start  -->
-                        <div class="col-4">
-                            <i class="bi bi-heart position-relative fs-3"><span class="position-absolute top-0 start-100 translate-middle badge rounded-circle text-bg-primary fs-6">0 <span class="visually-hidden">Wishlist</span></span></i>
-                            <span class="fs-6">Wishlist</span>
-                        </div>
-                        <!-- wishlist end  -->
 
-                        <!-- Cart Start  -->
-                        <div class="col-4">
-                            <i class="bi bi-cart-check fs-3 position-relative"> <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1 font-size-cart">0<span class="visually-hidden">unread messages</span></span></i>
-                            <span class="fs-6">Cart</span>
-                        </div>
-                        <!-- Cart End  -->
+                    <!-- wishlist start  -->
+                    <div class="col-4">
+                        <i class="bi bi-heart position-relative fs-3"><span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-circle text-bg-primary fs-6">0
+                                <span class="visually-hidden">Wishlist</span></span></i>
+                        <span class="fs-6">Wishlist</span>
+                    </div>
+                    <!-- wishlist end  -->
 
-                        <!-- Account Start  -->
-                        <div class="col-4">
-                            <i class="bi bi-person fs-3"></i>
-                            <span class="fs-6">Account</span>
-                        </div>
-                        <!-- Account End  -->
-                    
+                    <!-- Cart Start  -->
+                    <div class="col-4">
+                        <i class="bi bi-cart-check fs-3 position-relative"> <span
+                                class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1 font-size-cart">0<span
+                                    class="visually-hidden">unread messages</span></span></i>
+                        <span class="fs-6">Cart</span>
+                    </div>
+                    <!-- Cart End  -->
+
+                    <!-- Account Start  -->
+                    <div class="col-4">
+                        <i class="bi bi-person fs-3"></i>
+                        <span class="fs-6">Account</span>
+                    </div>
+                    <!-- Account End  -->
+
                 </div>
                 <!-- Wishlist-cart-account part End -->
 
@@ -161,16 +168,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Car Parts</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Dates</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Mustard Oil</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Best Seller</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">New Arraival</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -196,8 +203,243 @@
 
     <!-- ----------- Header Section End-------------- -->
 
+
+
+    <!-- -----Section-1 == Swiper Slider Start-----  -->
+    <section class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Swiper Start-->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="rounded-4" src="images/main-slider-1.jpg"
+                                    alt="Slider Photo"></div>
+                            <div class="swiper-slide"><img class="rounded-4" src="images/main-slider-2.jpg"
+                                    alt="Slider Photo"></div>
+                            <div class="swiper-slide"><img class="rounded-4" src="images/main-slider-3.jpg"
+                                    alt="Slider Photo"></div>
+
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <!-- Swiper End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----Section-1 == Swiper Slider End-----  -->
+
+
+    <!-- -----Section-5 == Top Sales == Swiper Slider Start-----  -->
+    <section class="mt-md-4 mt-2">
+        <div class="container">
+            <!-- Slider Heading -->
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between py-3">
+                    <div class="h">
+                        <h4 class="block-title mb-0"><i class="fa-solid fa-angles-right text-danger"></i> TOP SALES</h4>
+                    </div>
+                    <div class="d-flex">
+                        <button class="btn top-sales-button-prev button-hover-prev border rounded-0 text-danger me-1"><i
+                                class="fa-solid fa-angle-left"></i></button>
+                        <button class="btn top-sales-button-next button-hover-next border rounded-0 text-danger"><i
+                                class="fa-solid fa-angle-right"></i></button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Main slider Start  -->
+            <div class="row min-height">
+                <div class="col-12 bg-color p-4">
+                    <!-- Swiper Start-->
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
+
+                            <!-- per-item start  -->
+                            <div
+                                class="swiper-slide hover-for-slide d-flex flex-column bg-color-slider-none position-relative border rounded-4">
+
+                                <!-- Product photo  -->
+                                <div class="product-photo-hover overflow-hidden border-bottom w-100 position-relative">
+                                    <a href="single.html"><img src="images/product-1.png" class="img-fluid"
+                                            alt="Sports Shoes Photo"></a>
+
+                                </div>
+
+                                <!-- Product name  -->
+                                <div class="product-name mt-md-4 mt-2 mb-2">
+                                    <h6 class=""><a href="single.html" class="text-decoration-none">UOL Organic Centrifugal Extra Virgin Coconut Oil</a>
+                                    </h6>
+                                    <small class="text-secondary product-model-font-size">Model: Toyota | X
+                                        Corola</small>
+                                </div>
+
+                                <!-- Porduct price and add button -->
+                                <div class="s my-3">
+                                    <span class="fw-bold mb-3 text-danger fs-6">$40.00</span>
+                                    <span class="border py-2 px-3 rounded-2"> <a href="#" class="text-decoration-none"> Add </a></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- per-item end  -->
+
+
+
+                    </div>
+                </div>
+                <!-- Swiper End-->
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- -----Section-5 == Top Sales == Swiper Slider End-----  -->
+
+
+    <div class="container my-5">
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum numquam a beatae fugit iusto sint, libero
+        impedit deleniti quidem aliquid repellat eos, exercitationem dolor, in vitae ipsum cupiditate dignissimos
+        placeat. Enim eius distinctio neque officiis repellendus animi exercitationem optio quos. Illo aut perspiciatis
+        modi distinctio ipsum voluptate est, voluptatum incidunt reprehenderit nihil iste totam laboriosam error,
+        aspernatur quam, iusto veniam dolorum? Quod eveniet, eligendi deleniti aliquam saepe a quae architecto sed
+        numquam ipsa dolorum iste expedita eaque consequuntur ipsum fuga omnis perspiciatis sunt id voluptatibus eos quo
+        quam animi! Accusamus dolore, minima ex minus nihil similique voluptate reprehenderit voluptatem itaque quasi
+        eius provident ad eligendi ut! Ad expedita repellat fugit vitae voluptas, odio non excepturi? Eos quam sit,
+        nesciunt accusamus a vel. Obcaecati voluptatem minima saepe ut deleniti, quaerat et facilis laboriosam
+        necessitatibus! Saepe asperiores totam, dolorum dignissimos adipisci iure voluptatibus est accusamus nihil,
+        error placeat fugiat id officiis minima explicabo libero nemo. Repellat eligendi odit eius eveniet debitis
+        deserunt pariatur adipisci et dolorum nobis non autem fugiat, cum modi, porro ipsa! Ipsam, corrupti quam vel
+        porro accusamus perferendis modi cumque assumenda totam ducimus, earum quisquam. Voluptatem fugiat, rem minima
+        dignissimos quidem voluptate molestiae laudantium blanditiis suscipit sit, eaque et! Adipisci odit sequi quos
+        blanditiis, quae saepe repellat error sint delectus, atque eius voluptatum autem obcaecati labore deserunt iure
+        incidunt fugit tempora quidem sit! Iure nam ratione dolorem ipsum quo maxime at numquam, sint a tempore
+        repellendus saepe quidem rerum recusandae cupiditate aliquid nesciunt alias delectus similique odit. Rem iusto
+        reprehenderit pariatur placeat, sunt dolorem magnam optio fugit, quos ab, odio voluptas dolore voluptatem
+        temporibus corrupti dignissimos laudantium voluptates! Incidunt et repellat tempore quas eveniet facilis
+        temporibus praesentium sint, vitae adipisci distinctio deserunt quasi corrupti reprehenderit error impedit
+        laborum assumenda, est doloremque. Officia fugit at beatae eveniet consectetur eos obcaecati, sequi, dolorum
+        repudiandae quia est officiis velit quidem minus error recusandae laboriosam ipsa debitis quasi quibusdam qui
+        ipsum iure? Enim odio maxime nostrum exercitationem iste dolor, mollitia possimus est illum dolore omnis dicta,
+        libero repellat error blanditiis iure impedit assumenda totam? Minima cum adipisci ipsa dolorum quam eius
+        aperiam autem repudiandae explicabo reprehenderit impedit obcaecati voluptates, quaerat dolorem atque commodi ab
+        qui tempore, iusto debitis corporis? Vero repellendus consectetur maxime, dignissimos adipisci quo fugit aperiam
+        iusto non velit sunt mollitia esse a at est voluptate tempore corrupti laborum harum reiciendis quam veniam.
+        Alias quod rem omnis repellat natus id eligendi delectus possimus, dolorem adipisci fuga accusamus enim velit
+        fugit suscipit sapiente assumenda esse ipsa officia. Nesciunt voluptas qui officiis hic quisquam laborum.
+        Debitis veniam odio, impedit magni minima sapiente accusantium fuga aliquid asperiores laboriosam inventore eum
+        soluta repellat exercitationem facere vero nemo quis atque vitae pariatur nihil, hic dolorem cum. Non rem ipsum
+        consectetur sunt quod ab, et nihil quia placeat vel? Aspernatur quia numquam illum saepe cumque! Dolorum ut
+        blanditiis tempore voluptate nam, perspiciatis animi incidunt? Totam odit, officia dolorem laudantium
+        reprehenderit quidem, error eos ex nisi optio, commodi iusto laboriosam animi in ipsa facere ad expedita earum
+        eligendi!
+    </div>
+
+
+
+    <!-- ------------------ Footer Section Start------------------ -->
+    <div class="container-fluid footer-bg-color">
+        <div class="container py-5">
+            <div class="row">
+                <!-- Contact Us -->
+                <div class="col-md-3 contact-us">
+                    <h5 class="fw-bold mb-4">CONTACT US</h5>
+                    <p><i class="bi bi-geo-alt-fill me-2"></i> 374/1, East Goran, Khilgaon, Dhaka-1219</p>
+                    <p><i class="bi bi-telephone-fill me-2"></i> +8801914449393</p>
+                    <p><i class="bi bi-envelope-fill me-2"></i>partsandgadgets.com</p>
+                    <p><i class="bi bi-clock-fill me-2"></i> 7 Days a week from 10:00 am to 6:00 pm</p>
+                </div>
+
+                <!-- Store Location -->
+                <div class="col-md-3 bottom-menu">
+                    <h5 class="fw-bold mb-4">STORE LOCATION</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">Investors</a></li>
+
+                    </ul>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="col-md-3 bottom-menu">
+                    <h5 class="fw-bold mb-4">CUSTOMER SERVICE</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Track Your Order</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Store Location</a></li>
+                        <li><a href="#">Customer Feedback</a></li>
+                    </ul>
+                </div>
+
+                <!-- Information -->
+                <div class="col-md-3 bottom-menu">
+                    <h5 class="fw-bold mb-4">INFORMATION</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Caps & Hats</a></li>
+                        <li><a href="#">Hoodies & Sweatshirts</a></li>
+                        <li><a href="#">Jacket & Coats</a></li>
+                        <li><a href="#">Jumpers & Cardigans</a></li>
+                        <li><a href="#">Shoes, Boots & Trainers</a></li>
+                        <li><a href="#">Vehicle Spare Parts</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="border-secondary">
+
+            <!-- Social and Newsletter -->
+            <div class="row align-items-center py-3">
+                <div class="col-md-4">
+                    <h6 class="mb-2">FOLLOW US</h6>
+                    <div class="d-flex gap-2 social-icon-hover">
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-google"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 offset-md-4 newsletter-form">
+                    <h6 class="mb-2">SIGN UP FOR NEWSLETTER</h6>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Your email address">
+                        <button class="btn btn-danger" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+            <hr class="border-secondary footer-rul ">
+
+            <!-- Bottom Section -->
+            <div class="text-center py-3 small">
+                Parts and Gadgets © 2025. All Rights Reserved. Designed by <a href="#"
+                    class="text-danger text-decoration-none">Masud Rana</a>
+                <div class="mt-2 payment-icon">
+                    <img src="https://i.imgur.com/jbTsf3f.png" alt="payment methods" style="max-height: 30px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------- Footer Section End---------------- -->
+
     <!-- Bootstrap bundle min js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper bundle min js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper js -->
+    <script src="js/swiper.js"></script>
 
 </body>
 
