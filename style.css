@@ -64,29 +64,24 @@ ul.navbar-nav li a {
 
 
 
-/* =========================
- Footer Css Start
-========================= */
+/* =======================================
+            Footer Css Start
+========================================== */
 
 /* Footer Background & Text */
 .footer-bg-color {
   background-color: #1a1a1a;
-  color: #fff;
   font-size: 15px;
   line-height: 1.7;
 }
 
 
 .bottom-menu ul li a {
-  margin-bottom: 8px;
-  transition: color 0.3s;
-  text-decoration: none;
-  color: white;
-  
+  transition: color 0.3s; 
 }
 
 .bottom-menu ul li a:hover {
-  color: #ff3c3c;
+  color: #ff3c3c !important;
 }
 
 /* Contact Icons */
@@ -119,20 +114,11 @@ ul.navbar-nav li a {
   color: #fff;
 }
 
-/* Newsletter Form */
-.newsletter-form input[type="email"] {
-  border-radius: 0;
-  border: none;
-}
 
+/* newsletter form css */
 .newsletter-form button[type="submit"] {
-  border-radius: 0;
   background-color: #ff3c3c;
-  border: none;
-  color: #fff;
-  padding: 8px 16px;
   font-weight: 600;
-  transition: background-color 0.3s ease;
 }
 
 .newsletter-form button[type="submit"]:hover {
@@ -145,16 +131,10 @@ ul.navbar-nav li a {
   max-height: 30px;
 }
 
-/* Responsive Fixes */
-/* @media (max-width: 767.98px) {
-  footer .row > div {
-    margin-bottom: 30px;
-  }
-} */
 
-/* =========================
- Footer Css End
-========================= */
+/* ============================================
+          Footer Css End
+============================================= */
 
 
 

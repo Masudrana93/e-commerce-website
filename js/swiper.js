@@ -1,4 +1,6 @@
-//for Section-1 == main slider
+/*=================================================
+      For Section-1 == main slider js Start
+==================================================*/
 var swiper = new Swiper(".mySwiper", {
       navigation: {
         nextEl: ".swiper-button-next",
@@ -44,7 +46,11 @@ var swiper = new Swiper(".mySwiper2", {
 
     */
 
-//for Section-3 == Top Sales Slider
+
+/*=================================================
+      For Section-3 == Top Sales Slider js Start
+==================================================*/
+
     var swiper = new Swiper(".mySwiper3", {
       slidesPerView: 4,
       // grid: {
@@ -74,6 +80,7 @@ var swiper = new Swiper(".mySwiper2", {
       
     }
     });
+
 
     /*
 
