@@ -240,14 +240,14 @@ ul.navbar-nav li a {
 .bg-color-slider-none{
   background: none;
 }
-.cat-name-hover>h6>a:hover{
+/* .cat-name-hover>h6>a:hover{
   background-color: red;
   color: white !important;
 } 
 .cat-name-hover>h6>a{
   transition: all 0.3s ease;
   font-weight: 500;
-}
+} */
 
 .bg-color-red{
   background-color: #ff1e28;
@@ -298,12 +298,19 @@ ul.navbar-nav li a {
   Section-3 == Shop by Categories Slider css Start
  ==================================================*/
  
-.shop-cat-hover a img:hover {
+.shop-cat-hover:hover img {
     transform: scale(1.1);
-    border: 2px solid #0098b8;
 }
 
 .shop-cat-hover a img{
+  transition: 0.3s ease;
+}
+
+.shop-cat-hover:hover {
+    border: 2px solid #0098b8;
+    background:white!important;
+}
+.shop-cat-hover{
   transition: 0.3s ease;
 }
 
