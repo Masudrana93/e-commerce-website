@@ -256,3 +256,57 @@ ul.navbar-nav li a {
  /*================================== 
   Slider button hover css  End
   ===============================*/
+
+
+/*==================================================
+  Section-2 == Payment and Return Slider css Start
+ ==================================================*/
+
+.swiper-slide-icon {
+    height: 75px;
+    width: 75px;
+    margin-right: 18px;
+}
+
+.swiper-slide-title {
+    width: 170px;
+    
+}
+.swiper-slide-title h5 a:hover {
+    color: red !important;
+}
+.swiper-slide-title h5 a{
+  transition: 0.3s ease;
+}
+
+.swiper-slide-icon {
+  transition: border-color 0.3s ease; /* smooth transition */
+}
+
+.swiper-slide-icon:hover {
+  border-color: #dc3545 !important; 
+}
+.figcaption-title{
+  font-size: 14px;
+}
+
+/*==================================================
+  Section-2 == Payment and Return Slider css End
+ ==================================================*/
+
+/*==================================================
+  Section-3 == Shop by Categories Slider css Start
+ ==================================================*/
+ 
+.shop-cat-hover a img:hover {
+    transform: scale(1.1);
+    border: 2px solid #0098b8;
+}
+
+.shop-cat-hover a img{
+  transition: 0.3s ease;
+}
+
+/*==================================================
+  Section-3 == Shop by Categories Slider css End
+ ==================================================*/

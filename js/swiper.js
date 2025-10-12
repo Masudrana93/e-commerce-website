@@ -9,17 +9,43 @@ var swiper = new Swiper(".mySwiper", {
       
     });
 
+/*=======================================================
+    For Section-2 == Payment and Return Slider js Start
+========================================================*/
+
+   //for Section-2 == Payment and Return Slider
+    var swiper = new Swiper(".mySwiperPayReturn", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      
+      breakpoints: {
+      0: {
+        slidesPerView: 1
+      },
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+      992: {
+        slidesPerView: 4,
+        spaceBetween: 25,
+      },
+      
+    }
+    });
 
 
-/*
-
-
-
-//for Section-2 == Shop by category Slider
-var swiper = new Swiper(".mySwiper2", {
+/*========================================================
+      For Section-3 == Shop by Category Slider js Start
+===========================================================*/
+var swiper = new Swiper(".mySwiperShopByCat", {
       slidesPerView: 5,
       spaceBetween: 30,
-      navigation: {s
+      navigation: {
         nextEl: ".category-button-next2",
         prevEl: ".category-button-prev2",
       },
@@ -44,11 +70,9 @@ var swiper = new Swiper(".mySwiper2", {
     });
 
 
-    */
-
 
 /*=================================================
-      For Section-3 == Top Sales Slider js Start
+      For Section-4 == Top Sales Slider js Start
 ==================================================*/
 
     var swiper = new Swiper(".mySwiper3", {
@@ -270,30 +294,7 @@ var swiper = new Swiper(".mySwiper9", {
     }
     });
 
-     //for Section-8 == Featured Brand Slider
-    var swiper = new Swiper(".mySwiper11", {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      
-      breakpoints: {
-      0: {
-        slidesPerView: 1
-      },
-      576: {
-        slidesPerView: 2,
-        spaceBetween: 15,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 20,
-      },
-      992: {
-        slidesPerView: 4,
-        spaceBetween: 25,
-      },
-      
-    }
-    });
+  
 
 
     //for Section-10 == Gadgets == Slider
