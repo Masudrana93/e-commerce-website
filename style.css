@@ -82,7 +82,7 @@ ul.navbar-nav li a {
   border-radius: 0 !important;
 }
 .nav-main .dropdown-menu li:hover>a{
-  background: #ff1e28 ;
+  background: #0A8A1D;
   color: #fff ;
 }
 .nav-main .dropdown-menu li{
@@ -95,10 +95,12 @@ ul.navbar-nav li a {
 
 
 .navbar-nav > li > a {
-    padding: 10px 35px !important;
+    padding: 10px 20px !important;
 }
 .navbar-nav > li > a:hover {
-    background-color:#000 ;
+    /* background-color:#000 ; */
+    /* background-color: #52DF65; */
+    background-color: #0A8A1D;
 }
 
 /* =========================
