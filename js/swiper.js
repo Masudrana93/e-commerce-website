@@ -6,6 +6,14 @@ var swiper = new Swiper(".mySwiper", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
       
     });
 
@@ -34,8 +42,12 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
         spaceBetween: 25,
       },
-      
-    }
+    },
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false
+      },
+
     });
 
 

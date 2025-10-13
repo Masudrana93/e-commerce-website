@@ -298,22 +298,63 @@ ul.navbar-nav li a {
   Section-3 == Shop by Categories Slider css Start
  ==================================================*/
  
-.shop-cat-hover:hover img {
-    transform: scale(1.1);
+.shop-cat-hover {
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  background-color: #f8f9fa; /* light background */
 }
 
-.shop-cat-hover a img{
-  transition: 0.3s ease;
+.shop-cat-hover img {
+  transition: transform 0.4s ease;
 }
 
 .shop-cat-hover:hover {
-    border: 2px solid #0098b8;
-    background:white!important;
+  border: 2px solid #20c997; /* hover border color */
+  background-color: #ffffff; /* white bg */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
 }
-.shop-cat-hover{
-  transition: 0.3s ease;
+
+.shop-cat-hover:hover img {
+  transform: scale(1.1); /* zoom effect */
 }
 
 /*==================================================
   Section-3 == Shop by Categories Slider css End
+ ==================================================*/
+
+
+/*==================================================
+  Section-4 == Top Sales Slider css Start
+ ==================================================*/
+
+ /* Base card style */
+.hover-for-slide {
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+}
+
+/* Image animation setup */
+.hover-for-slide .product-photo-hover img {
+  transition: transform 0.4s ease;
+}
+
+/* Hover effect */
+.hover-for-slide:hover {
+  border: 2px solid #007bff; /* border color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* optional shadow */
+ 
+}
+
+.hover-for-slide:hover .product-photo-hover img {
+  transform: scale(1.1); /* zoom in effect */
+}
+
+.hover-for-slide {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/*==================================================
+  Section-4 == Top Sales Slider css End
  ==================================================*/
