@@ -341,7 +341,7 @@ ul.navbar-nav li a {
 
 /* Hover effect */
 .hover-for-slide:hover {
-  border: 2px solid #007bff; /* border color on hover */
+  border: 2px solid #007bff !important; /* border color on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* optional shadow */
  
 }
@@ -353,6 +353,16 @@ ul.navbar-nav li a {
 .hover-for-slide {
   border-radius: 12px;
   overflow: hidden;
+}
+
+
+/* discount ribbon css */
+.discount-ribbon span {
+    background: red;
+    border-radius: 12px 0 12px 0;
+    padding: 4px;
+    display: flex;
+    align-items: center;
 }
 
 /*==================================================
