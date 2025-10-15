@@ -330,8 +330,12 @@ ul.navbar-nav li a {
 
  /* Base card style */
 .hover-for-slide {
-  transition: all 0.4s ease;
-  border: 2px solid transparent;
+  border: 1px solid transparent; /* keep same width */
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.4s ease;
+  box-shadow: 0.4s ease;
+  transform: 0.3s ease;
 }
 
 /* Image animation setup */
@@ -341,28 +345,67 @@ ul.navbar-nav li a {
 
 /* Hover effect */
 .hover-for-slide:hover {
-  border: 2px solid #007bff !important; /* border color on hover */
+  border: 1px solid #20c997 !important; /* border color on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* optional shadow */
- 
 }
 
 .hover-for-slide:hover .product-photo-hover img {
   transform: scale(1.1); /* zoom in effect */
 }
 
-.hover-for-slide {
-  border-radius: 12px;
-  overflow: hidden;
+/* Wishlist icon base style */
+.wishlist-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border: 1px solid #20c997;
+}
+
+/* Icon style */
+.wishlist-icon i {
+  font-size: 20px;
+  color: #0098b8;
+}
+
+/* Show icon on hover */
+.hover-for-slide:hover .wishlist-icon {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.wishlist-icon i::before {
+  transition: color 0.3s ease;
 }
 
 
 /* discount ribbon css */
-.discount-ribbon span {
-    background: red;
+.discount-ribbon small {
+    background-color: #0098b8;
     border-radius: 12px 0 12px 0;
-    padding: 4px;
-    display: flex;
-    align-items: center;
+    font-size: small;
+}
+
+
+/* add btn css*/
+.add-btn-color a{
+  background: #D8F1E5;
+  color: #0098b8;
+  transition: all 0.3s ease;
+}
+
+.add-btn-color a:hover{
+  background-color: #0098b8;
+  color: white;
+  
+}
+
+.price-color{
+  color: #0098b8;
 }
 
 /*==================================================
