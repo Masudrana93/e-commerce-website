@@ -62,10 +62,8 @@ var swiper = new Swiper(".mySwiperShopByCat", {
         prevEl: ".category-button-prev2",
       },
       breakpoints: {
+     
       0: {
-        slidesPerView: 1
-      },
-      576: {
         slidesPerView: 2,
         spaceBetween: 15,
       },
@@ -78,7 +76,11 @@ var swiper = new Swiper(".mySwiperShopByCat", {
         spaceBetween: 25,
       },
       
-    }
+    },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
     });
 
 
@@ -110,7 +112,7 @@ var swiper = new Swiper(".mySwiperShopByCat", {
         spaceBetween: 20,
       },
       992: {
-        slidesPerView: 4,
+        slidesPerView: 3,
         spaceBetween: 25,
       },
       
