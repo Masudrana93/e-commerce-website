@@ -86,7 +86,7 @@ var swiper = new Swiper(".mySwiperShopByCat", {
 
 
 /*=================================================
-      For Section-4 == Top Sales Slider js Start
+      For Section-5 == Best Sells Slider js Start
 ==================================================*/
 
     var swiper = new Swiper(".mySwiper3", {
@@ -108,7 +108,7 @@ var swiper = new Swiper(".mySwiperShopByCat", {
         spaceBetween: 15,
       },
       768: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
       992: {
