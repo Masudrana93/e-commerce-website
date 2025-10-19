@@ -119,20 +119,20 @@ var swiper = new Swiper(".mySwiperShopByCat", {
     }
     });
 
-
-    /*
-
-    //for Section-4 == Car Parts Slider
-    var swiper = new Swiper(".mySwiper4", {
-      slidesPerView: 3,
+/*====================================================
+      For Section-6 == Islamic Corner Slider js Start
+=====================================================*/
+    
+    var swiper = new Swiper(".mySwiperIslamic", {
+      slidesPerView: 4,
       spaceBetween: 30,
       navigation: {
-        nextEl: ".car-parts-button-next",
-        prevEl: ".car-parts-button-prev",
+        nextEl: ".islamic-corner-button-next",
+        prevEl: ".islamic-corner-button-prev",
       },
       breakpoints: {
       0: {
-        slidesPerView: 1
+        slidesPerView: 2,
       },
       576: {
         slidesPerView: 2,
@@ -143,13 +143,15 @@ var swiper = new Swiper(".mySwiperShopByCat", {
         spaceBetween: 20,
       },
       992: {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 25,
       },
       
     }
     });
 
+
+    /*
      //for Section-5 == Tractor Parts Slider
     var swiper = new Swiper(".mySwiper5", {
       slidesPerView: 3,

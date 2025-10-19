@@ -219,7 +219,7 @@ ul.navbar-nav li a {
   Slider button hover css  Start
   ===============================*/
 .button-hover-prev:hover{
- background-color: #ff1e28;
+ background-color: #0098b8;
  color: white !important;
 }
 .button-hover-prev, .button-hover-next{
@@ -231,9 +231,10 @@ ul.navbar-nav li a {
   justify-content: center;
   flex-direction: row;
   background-color: white;
+  color: #0098b8 !important;
 }
 .button-hover-next:hover{
- background-color: #ff1e28;
+ background-color: #0098b8;
  color: white !important;
 }
 
@@ -411,6 +412,28 @@ ul.navbar-nav li a {
   color: #0098b8;
 }
 
+.product-name h6 a{
+  transition: all 0.3 ease !important;
+}
+.product-name h6 a:hover {
+    color: #0098b8 !important;
+}
 /*==================================================
   Section-5 == Best Sells Slider css End
+ ==================================================*/
+
+
+ /*==================================================
+  Section-6 == Islamic corner Slider css start
+ ==================================================*/
+ .category-title-hover a{
+  transition: all 0.3s ease !important;
+ }
+ 
+ .category-title-hover a:hover {
+    color: #0098b8 !important;
+}
+
+/*==================================================
+  Section-6 == Islamic corner Slider css end
  ==================================================*/
