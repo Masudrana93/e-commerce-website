@@ -437,3 +437,67 @@ ul.navbar-nav li a {
 /*==================================================
   Section-6 == Islamic corner Slider css end
  ==================================================*/
+
+
+/*==================================================
+       Single page Slider css end
+ ==================================================*/
+
+ .myThumbs {
+  height: 400px;
+}
+.myThumbs .swiper-slide {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.myThumbs .swiper-slide-thumb-active {
+  opacity: 1;
+  /* border: 2px solid #000; */
+}
+.myGallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+   /* Navigation buttons */
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #000;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .swiper-button-next:hover,
+    .swiper-button-prev:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+   
+
+/* 
+        .zoom-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .zoom-image {
+      width: 100%;
+      transition: transform 0.2s ease-out;
+      transform-origin: center center;
+      cursor: zoom-in;
+    } */

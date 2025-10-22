@@ -397,33 +397,49 @@ var swiper = new Swiper(".mySwiper9", {
     }
     });
 
-
-//****** For Single Page *********
-  
-    // -----Product View ----
-    function changeImage(el) {
-      const mainImg = document.getElementById("mainImage");
-      mainImg.src = el.src;
-
-      // Remove active from all thumbnails
-      document.querySelectorAll(".thumbnail-image").forEach(img => img.classList.remove("active"));
-
-      // Add active to clicked thumbnail
-      el.classList.add("active");
-     }
-
-  // ---For Quantity Selection ----
-     function increaseQty() {
-        const input = document.getElementById('qtyInput');
-        input.value = parseInt(input.value) + 1;
-      }
-
-    function decreaseQty() {
-        const input = document.getElementById('qtyInput');
-        if (parseInt(input.value) > 1) {
-            input.value = parseInt(input.value) - 1;
-        }
-      }
-
-
       */
+
+
+
+
+//****** For Single Page slider JS Start *********
+
+     const thumbsSwiper = new Swiper(".myThumbs", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+
+    const mainSwiper = new Swiper(".myGallery", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: thumbsSwiper,
+      },
+    });
+
+    /*
+
+    // Cursor-follow zoom effect
+    document.querySelectorAll(".zoom-container").forEach(container => {
+      const img = container.querySelector(".zoom-image");
+
+      container.addEventListener("mousemove", (e) => {
+        const rect = container.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        img.style.transformOrigin = `${x}% ${y}%`;
+        img.style.transform = "scale(2)"; // Zoom level (2x)
+      });
+
+      container.addEventListener("mouseleave", () => {
+        img.style.transformOrigin = "center center";
+        img.style.transform = "scale(1)";
+      });
+    });
+    
+    */
