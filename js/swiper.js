@@ -404,14 +404,14 @@ var swiper = new Swiper(".mySwiper9", {
 
 //****** For Single Page slider JS Start *********
 
-     const thumbsSwiper = new Swiper(".myThumbs", {
+  const thumbsSwiper = new Swiper(".myThumbs2", {
       spaceBetween: 10,
       slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
     });
 
-    const mainSwiper = new Swiper(".myGallery", {
+    const mainSwiper = new Swiper(".myGallery2", {
       spaceBetween: 10,
       navigation: {
         nextEl: ".swiper-button-next",
@@ -421,25 +421,3 @@ var swiper = new Swiper(".mySwiper9", {
         swiper: thumbsSwiper,
       },
     });
-
-    /*
-
-    // Cursor-follow zoom effect
-    document.querySelectorAll(".zoom-container").forEach(container => {
-      const img = container.querySelector(".zoom-image");
-
-      container.addEventListener("mousemove", (e) => {
-        const rect = container.getBoundingClientRect();
-        const x = ((e.clientX - rect.left) / rect.width) * 100;
-        const y = ((e.clientY - rect.top) / rect.height) * 100;
-        img.style.transformOrigin = `${x}% ${y}%`;
-        img.style.transform = "scale(2)"; // Zoom level (2x)
-      });
-
-      container.addEventListener("mouseleave", () => {
-        img.style.transformOrigin = "center center";
-        img.style.transform = "scale(1)";
-      });
-    });
-    
-    */

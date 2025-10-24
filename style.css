@@ -440,30 +440,47 @@ ul.navbar-nav li a {
 
 
 /*==================================================
-       Single page Slider css end
+       Single page Slider css Start
  ==================================================*/
 
- .myThumbs {
-  height: 400px;
-}
-.myThumbs .swiper-slide {
-  cursor: pointer;
-  opacity: 0.6;
-}
-.myThumbs .swiper-slide-thumb-active {
-  opacity: 1;
-  /* border: 2px solid #000; */
-}
-.myGallery img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+   
 
-   /* Navigation buttons */
+ /* Main image slider */
+    .myGallery2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    /* Thumbnail slider */
+    .myThumbs2 {
+      margin-top: 15px;
+    }
+
+    .myThumbs2 .swiper-slide {
+      width: 25%;
+      opacity: 0.6;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .myThumbs2 .swiper-slide-thumb-active {
+      opacity: 1;
+      border: 2px solid #0098b8 ;
+      border-radius: 10px;
+    }
+
+    .myThumbs2 img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    /* Navigation buttons */
     .swiper-button-next,
     .swiper-button-prev {
-      color: #000;
+      color: #0098b8 ;
       background: rgba(255, 255, 255, 0.8);
       border-radius: 50%;
       width: 40px;
@@ -476,7 +493,7 @@ ul.navbar-nav li a {
 
     .swiper-button-next:hover,
     .swiper-button-prev:hover {
-      background: #000;
+      background: #0098b8 ;
       color: #fff;
     }
 
@@ -485,19 +502,3 @@ ul.navbar-nav li a {
       font-size: 18px;
       font-weight: bold;
     }
-
-   
-
-/* 
-        .zoom-container {
-      position: relative;
-      overflow: hidden;
-      border-radius: 10px;
-    }
-
-    .zoom-image {
-      width: 100%;
-      transition: transform 0.2s ease-out;
-      transform-origin: center center;
-      cursor: zoom-in;
-    } */
