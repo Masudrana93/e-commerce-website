@@ -10,7 +10,8 @@
 
 body {
   font-family: "Rubik", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;           /* ডিফল্ট সাইজ */
+  font-size: 14px;
+  /* ডিফল্ট সাইজ */
   /* line-height: 1.5;          পড়তে সুবিধা হয় */
   color: #282828;
   background-color: #ffff;
@@ -27,24 +28,27 @@ body {
  ========================= */
 
 select.form-select {
-    width: 30%;
-    
+  width: 30%;
+
 }
-.form-select:focus{
+
+.form-select:focus {
   box-shadow: none !important;
 }
 
-.form-control:focus{
+.form-control:focus {
   border-color: none !important;
   box-shadow: none !important;
 }
-.border-search-bar{
-    border: 1px solid #0098b8 !important;
-}
-.font-size-cart{
-  font-size: 14px;
-}
 
+.border-search-bar {
+  border: 1px solid #0098b8 !important;
+}
+.btn-search{
+  background-color: #0098b8 !important;
+  border-radius:  0 !important;
+  color: white !important;
+}
 /* =========================
  Header Search Part End
 ========================= */
@@ -55,7 +59,7 @@ select.form-select {
 ========================= */
 
 ul.navbar-nav li a {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* Nav Bar  */
@@ -73,7 +77,7 @@ ul.navbar-nav li a {
 .nav-main .dropdown:hover>.dropdown-menu {
   display: block;
   margin-top: 0;
-  
+
 }
 
 .nav-main .dropdown-menu {
@@ -81,26 +85,34 @@ ul.navbar-nav li a {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   border-radius: 0 !important;
 }
-.nav-main .dropdown-menu li:hover>a{
+
+.nav-main .dropdown-menu li:hover>a {
   background: #0A8A1D;
-  color: #fff ;
+  color: #fff;
 }
-.nav-main .dropdown-menu li{
+
+.nav-main .dropdown-menu li {
   border-bottom: 1px solid #eee;
 }
-.nav-main .dropdown-menu li a{
+
+.nav-main .dropdown-menu li a {
   padding: 10px 15px;
 }
 
 
 
-.navbar-nav > li > a {
-    padding: 10px 20px !important;
+.navbar-nav>li>a {
+  padding: 10px 20px !important;
 }
-.navbar-nav > li > a:hover {
-    /* background-color:#000 ; */
-    /* background-color: #52DF65; */
-    background-color: #0A8A1D;
+
+.navbar-nav>li>a:hover {
+  /* background-color:#000 ; */
+  /* background-color: #52DF65; */
+  background-color: #0A8A1D;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 100% !important;
 }
 
 /* =========================
@@ -122,7 +134,7 @@ ul.navbar-nav li a {
 
 
 .bottom-menu ul li a {
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .bottom-menu ul li a:hover {
@@ -133,7 +145,7 @@ ul.navbar-nav li a {
 .contact-us p i {
   color: #ff3c3c;
   margin-right: 8px;
-} 
+}
 
 /* Divider Line */
 .footer-rul hr {
@@ -188,41 +200,45 @@ ul.navbar-nav li a {
  ========================================*/
 
 .swiper {
-      width: 100%;
-      height: auto;
-    }
+  width: 100%;
+  height: auto;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      /* background: #444; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #444; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .new-pro-img-height img{
-      height: auto !important;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.new-pro-img-height img {
+  height: auto !important;
+}
+
 /*======================================
   Section-1 == Swiper Slider CSS End 
  ========================================*/
 
 
- /*================================== 
+/*================================== 
   Slider button hover css  Start
   ===============================*/
-.button-hover-prev:hover{
- background-color: #0098b8;
- color: white !important;
+.button-hover-prev:hover {
+  background-color: #0098b8;
+  color: white !important;
 }
-.button-hover-prev, .button-hover-next{
+
+.button-hover-prev,
+.button-hover-next {
   transition: all 0.4s ease;
   width: 34px;
   height: 34px;
@@ -233,14 +249,16 @@ ul.navbar-nav li a {
   background-color: white;
   color: #0098b8 !important;
 }
-.button-hover-next:hover{
- background-color: #0098b8;
- color: white !important;
+
+.button-hover-next:hover {
+  background-color: #0098b8;
+  color: white !important;
 }
 
-.bg-color-slider-none{
+.bg-color-slider-none {
   background: none;
 }
+
 /* .cat-name-hover>h6>a:hover{
   background-color: red;
   color: white !important;
@@ -250,11 +268,11 @@ ul.navbar-nav li a {
   font-weight: 500;
 } */
 
-.bg-color-red{
+.bg-color-red {
   background-color: #ff1e28;
 }
 
- /*================================== 
+/*================================== 
   Slider button hover css  End
   ===============================*/
 
@@ -264,30 +282,34 @@ ul.navbar-nav li a {
  ==================================================*/
 
 .swiper-slide-icon {
-    height: 75px;
-    width: 75px;
-    margin-right: 18px;
+  height: 75px;
+  width: 75px;
+  margin-right: 18px;
 }
 
 .swiper-slide-title {
-    width: 170px;
-    
+  width: 170px;
+
 }
+
 .swiper-slide-title h5 a:hover {
-    color: red !important;
+  color: red !important;
 }
-.swiper-slide-title h5 a{
+
+.swiper-slide-title h5 a {
   transition: 0.3s ease;
 }
 
 .swiper-slide-icon {
-  transition: border-color 0.3s ease; /* smooth transition */
+  transition: border-color 0.3s ease;
+  /* smooth transition */
 }
 
 .swiper-slide-icon:hover {
-  border-color: #dc3545 !important; 
+  border-color: #dc3545 !important;
 }
-.figcaption-title{
+
+.figcaption-title {
   font-size: 14px;
 }
 
@@ -298,11 +320,12 @@ ul.navbar-nav li a {
 /*==================================================
   Section-3 == Shop by Categories Slider css Start
  ==================================================*/
- 
+
 .shop-cat-hover {
   transition: all 0.4s ease;
   border: 2px solid transparent;
-  background-color: #f8f9fa; /* light background */
+  background-color: #f8f9fa;
+  /* light background */
 }
 
 .shop-cat-hover img {
@@ -310,14 +333,17 @@ ul.navbar-nav li a {
 }
 
 .shop-cat-hover:hover {
-  border: 2px solid #20c997; /* hover border color */
-  background-color: #ffffff; /* white bg */
+  border: 2px solid #20c997;
+  /* hover border color */
+  background-color: #ffffff;
+  /* white bg */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
+
 }
 
 .shop-cat-hover:hover img {
-  transform: scale(1.1); /* zoom effect */
+  transform: scale(1.1);
+  /* zoom effect */
 }
 
 /*==================================================
@@ -329,9 +355,10 @@ ul.navbar-nav li a {
   Section-5 == Best Sells Slider css Start
  ==================================================*/
 
- /* Base card style */
+/* Base card style */
 .hover-for-slide {
-  border: 1px solid transparent; /* keep same width */
+  border: 1px solid transparent;
+  /* keep same width */
   border-radius: 15px;
   overflow: hidden;
   transition: border-color 0.4s ease;
@@ -346,12 +373,15 @@ ul.navbar-nav li a {
 
 /* Hover effect */
 .hover-for-slide:hover {
-  border: 1px solid #20c997 !important; /* border color on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* optional shadow */
+  border: 1px solid #20c997 !important;
+  /* border color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  /* optional shadow */
 }
 
 .hover-for-slide:hover .product-photo-hover img {
-  transform: scale(1.1); /* zoom in effect */
+  transform: scale(1.1);
+  /* zoom in effect */
 }
 
 /* Wishlist icon base style */
@@ -363,7 +393,7 @@ ul.navbar-nav li a {
   opacity: 0;
   transition: all 0.3s ease;
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   border: 1px solid #20c997;
 }
 
@@ -372,7 +402,8 @@ ul.navbar-nav li a {
   font-size: 18px;
   color: #0098b8;
 }
-.wishlist-icon i:hover{
+
+.wishlist-icon i:hover {
   color: red;
 }
 
@@ -389,49 +420,51 @@ ul.navbar-nav li a {
 
 /* discount ribbon css */
 .discount-ribbon small {
-    background-color: #0098b8;
-    border-radius: 12px 0 12px 0;
-    font-size: small;
+  background-color: #0098b8;
+  border-radius: 12px 0 12px 0;
+  font-size: small;
 }
 
 
 /* add btn css*/
-.add-btn-color a{
+.add-btn-color a {
   background: #D8F1E5;
   color: #0098b8;
   transition: all 0.3s ease;
 }
 
-.add-btn-color a:hover{
+.add-btn-color a:hover {
   background-color: #0098b8;
   color: white;
-  
+
 }
 
-.price-color{
+.price-color {
   color: #0098b8;
 }
 
-.product-name h6 a{
+.product-name h6 a {
   transition: all 0.3 ease !important;
 }
+
 .product-name h6 a:hover {
-    color: #0098b8 !important;
+  color: #0098b8 !important;
 }
+
 /*==================================================
   Section-5 == Best Sells Slider css End
  ==================================================*/
 
 
- /*==================================================
+/*==================================================
   Section-6 == Islamic corner Slider css start
  ==================================================*/
- .category-title-hover a{
+.category-title-hover a {
   transition: all 0.3s ease !important;
- }
- 
- .category-title-hover a:hover {
-    color: #0098b8 !important;
+}
+
+.category-title-hover a:hover {
+  color: #0098b8 !important;
 }
 
 /*==================================================
@@ -443,62 +476,106 @@ ul.navbar-nav li a {
        Single page Slider css Start
  ==================================================*/
 
-   
 
- /* Main image slider */
-    .myGallery2 img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      object-fit: cover;
-    }
 
-    /* Thumbnail slider */
-    .myThumbs2 {
-      margin-top: 15px;
-    }
+/* Main image slider */
+.myGallery2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-    .myThumbs2 .swiper-slide {
-      width: 25%;
-      opacity: 0.6;
-      cursor: pointer;
-      transition: 0.3s;
-    }
+/* Thumbnail slider */
+.myThumbs2 {
+  margin-top: 15px;
+}
 
-    .myThumbs2 .swiper-slide-thumb-active {
-      opacity: 1;
-      border: 2px solid #0098b8 ;
-      border-radius: 10px;
-    }
+.myThumbs2 .swiper-slide {
+  width: 25%;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
-    .myThumbs2 img {
-      width: 100%;
-      border-radius: 10px;
-      object-fit: cover;
-    }
+.myThumbs2 .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 2px solid #0098b8;
+  border-radius: 10px;
+}
 
-    /* Navigation buttons */
-    .swiper-button-next,
-    .swiper-button-prev {
-      color: #0098b8 ;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    }
+.myThumbs2 img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
 
-    .swiper-button-next:hover,
-    .swiper-button-prev:hover {
-      background: #0098b8 ;
-      color: #fff;
-    }
+/* Navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0098b8;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
 
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-      font-size: 18px;
-      font-weight: bold;
-    }
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #0098b8;
+  color: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Social icons css */
+.bg-icons a {
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bg-icons a i {
+  font-size: 26px;
+
+}
+
+/* buttons CSS  */
+.buy-btn a,
+.wish-btn:hover {
+  background: #0098b8 !important;
+  color: white !important;
+}
+
+.wish-btn:hover i {
+  color: white !important;
+}
+
+.buy-btn a:hover , .btn-search:hover {
+  background: #024653 !important;
+  color: white;
+}
+
+ .cart-and-wish-num{
+    display: flex;
+    height: 23px;
+    border-radius: 50% !important;
+    width: 23px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem !important;
+}
